@@ -48,7 +48,6 @@ class Main:
 
     def info(self):
         os.system('cls')
-        print('github.com/kaanosu/ValorantArduinoColorbot\n')
         print('Enemy Outline Color: Purple')
 
     def run(self):
