@@ -1,8 +1,6 @@
 [![C++](https://img.shields.io/badge/C%2B%2B-17-blue)](https://github.com/ozymotv/2CA)
 [![License MIT](https://badgen.net/github/license/SunOner/sunone_aimbot_cpp)](https://github.com/SunOner/sunone_aimbot_cpp/blob/main/LICENSE)
 
-Đây là phiên bản fork của SunOne Aimbot tập trung vào việc triển khai phương thức chuột Kmbox Net để cải thiện hiệu suất và độ chính xác.
-
 > **⚠️ CẢNH BÁO:** TensorRT phiên bản 10 không hỗ trợ kiến trúc Pascal (card đồ họa dòng 10). Chỉ sử dụng với GPU từ dòng 20 trở lên.
 
 ## Hướng dẫn nhanh
@@ -12,7 +10,7 @@
    - Cài đặt [CUDA 12.8](https://developer.nvidia.com/cuda-12-8-0-download-archive)
 
 2. **Tải bản phát hành mới nhất**
-   - Tải về từ [đây](https://disk.yandex.ru/d/DR3RHMqOSbqy2w) v3.2 (Cập nhật 03.03.2025)
+   - Tải về từ [đây](https://mega.nz/file/IOcSQK5Y#JtugHSpbO2OuNQGqsHUskzVodGQu1KlwqBlzIYrjGM4) v3.2 (Cập nhật 03.03.2025)
 
 3. **Thiết lập**
    - Giải nén nội dung Aimbot
@@ -45,9 +43,6 @@ pip install ultralytics -U
 yolo export model=your_model.pt format=onnx dynamic=true simplify=true
 ```
 Để chuyển đổi từ .onnx sang .engine, sử dụng tab export trong overlay.
-
-## Các phiên bản trước
-- Có sẵn [tại đây](https://disk.yandex.ru/d/m0jbkiLEFvnZKg)
 
 ## Tham khảo
 - [Tài liệu cấu hình](https://github.com/SunOner/sunone_aimbot_docs/blob/main/config/config_cpp.md)
