@@ -54,6 +54,15 @@ yolo export model=your_model.pt format=onnx dynamic=true simplify=true
 ```
 For .onnx to .engine conversion, use the export tab in the overlay.
 
+<h3 align="left">Support:</h3>
+
+USDT - TRX (TRON TRC-20): TChDBfpKwHPX7CLnqvtQGG7jr9jvaB5KWq
+
+BTC - BTC network: 1MnnTJBfdYEpeLgCFYf4NiMLg1UGRvijsz
+
+<p><a href="https://www.buymeacoffee.com/ozymotvz"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="ozymotvz" /></a><a href="https://ko-fi.com/ozymotv"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="ozymotv" /></a></p><br><br>
+
+
 
 ## References
 - [Config Documentation](https://github.com/SunOner/sunone_aimbot_docs/blob/main/config/config_cpp.md)
