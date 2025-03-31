@@ -1,5 +1,3 @@
-# SunOne Aimbot C++ (Phiên bản Kmbox Net)
-
 [![C++](https://img.shields.io/badge/C%2B%2B-17-blue)](https://github.com/ozymotv/2CA)
 [![License MIT](https://badgen.net/github/license/SunOner/sunone_aimbot_cpp)](https://github.com/SunOner/sunone_aimbot_cpp/blob/main/LICENSE)
 
