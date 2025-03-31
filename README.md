@@ -1,7 +1,14 @@
 # SunOne Aimbot C++ (Kmbox Net Fork)
 
-[![C++](https://img.shields.io/badge/C%2B%2B-17-blue)](https://github.com/ozymotv/2CA)
-[![License MIT](https://badgen.net/github/license/SunOner/sunone_aimbot_cpp)](https://github.com/SunOner/sunone_aimbot_cpp/blob/main/LICENSE)
+<div align="center">
+ <img src="https://github.com/OzymoGit/2-condition-triggerbot/assets/33122491/86aed2d0-5393-42c1-b9a4-d0d29974a099" /><br> <h1>2-condition-aimbot</h1>
+ <img src="https://img.shields.io/badge/Live%20Status-UNDETECTED-green" />
+
+A hardware aimbot for games using kmbox net
+
+[**English**](.README.md)  |  [**Tiếng Việt**](./include/REAME-vi.me)   |   [**中国人**](.README.md)    |    [**한국인**](.README.md)   |    [**日本語**](.README.md)  
+
+</div>
 
 This fork of SunOne Aimbot focuses on implementing the Kmbox Net mouse method for improved performance and precision.
 
