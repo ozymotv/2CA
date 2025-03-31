@@ -10,7 +10,7 @@
    - Cài đặt [CUDA 12.8](https://developer.nvidia.com/cuda-12-8-0-download-archive)
 
 2. **Tải bản phát hành mới nhất**
-   - Tải về từ [đây](https://mega.nz/file/IOcSQK5Y#JtugHSpbO2OuNQGqsHUskzVodGQu1KlwqBlzIYrjGM4) v3.2 (Cập nhật 03.03.2025)
+   - Tải về từ [đây](https://mega.nz/file/tKd2ySZL#nCKD-Lw-GEDzykpLZgTqQ8-Tc4hGAzN_KLySIdQnF-w) 
 
 3. **Thiết lập**
    - Giải nén nội dung Aimbot
