@@ -4,7 +4,7 @@
 
 A hardware aimbot for games using kmbox net
 
-[**English**](.README.md)  |  [**Tiếng Việt**](./2CA/includeREADME-vi.md)   |   [**中国人**](.README.md)    |    [**한국인**](.README.md)   |    [**日本語**](.README.md)  
+[**English**](.README.md)  |  [**Tiếng Việt**](./2CA/include/README-vi.md)   |   [**中国人**](.README.md)    |    [**한국인**](.README.md)   |    [**日本語**](.README.md)  
 
 </div>
 
