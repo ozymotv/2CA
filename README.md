@@ -1,7 +1,5 @@
-# 2-Condition-Aimbot
-
 <div align="center">
- <h1>SunOne Aimbot C++ (Kmbox Net Fork)</h1>
+ <h1>2-Condition-Aimbot</h1>
  <img src="https://img.shields.io/badge/Live%20Status-UNDETECTED-green" />
 
 A hardware aimbot for games using kmbox net
