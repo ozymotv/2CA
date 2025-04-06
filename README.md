@@ -25,7 +25,7 @@ This fork of SunOne Aimbot focuses on implementing the Kmbox Net mouse method fo
    - Extract the Aimbot contents
    - Edit your Kmbox net ip, port, uuid in the config.ini
    - Run `ai.exe` and wait for the standard `.onnx` model export (approximately 5 minutes)
-   - To use a different model, place your `.onnx` file in the `models` folder and select it in the AI tab
+   - To use a different model, place your `.onnx` file in the `models` folder and select it in the AI tab. (You can train a model yourself for better compatible with your specific needs)
   
 4. **Controls**
    - **Right Mouse Button:** Aim at detected target
@@ -36,15 +36,9 @@ This fork of SunOne Aimbot focuses on implementing the Kmbox Net mouse method fo
 
 ## Kmbox Net Configuration
 The Kmbox Net mouse method provides several advantages:
-- Improved precision for target tracking
-- Lower detection latency
-- Enhanced movement smoothing
-
-To enable Kmbox Net:
-1. Open the overlay (Home key)
-2. Navigate to the Mouse tab
-3. Select "Kmbox Net" from the dropdown menu
-4. Configure connection settings as needed
+- Very hard to get detected by Anticheats
+- Pure human interface for better compatible
+- Hardware level movement smoothing (known as Trace)
 
 ## Model Export Guide
 To export PyTorch models from Python with dynamic shapes:
