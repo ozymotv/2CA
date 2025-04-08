@@ -38,7 +38,7 @@ This fork of SunOne Aimbot focuses on implementing the Kmbox Net mouse method fo
 The Kmbox Net mouse method provides several advantages:
 - Very hard to get detected by Anticheats
 - Pure human interface for better compatible
-- Hardware level movement smoothing (known as Trace)
+- Hardware level curve control (known as Trace)
 
 ## Model Export Guide
 To export PyTorch models from Python with dynamic shapes:
