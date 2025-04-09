@@ -2,7 +2,7 @@
  <h1>2-Condition-Aimbot</h1>
  <img src="https://img.shields.io/badge/Live%20Status-UNDETECTED-green" />
 
-A hardware aimbot for games using kmbox net
+A hardware aimbot for games using kmbox net. support valorant. cs2. overwatch 2. COD. and more
 
 [**English**](.README.md)  |  [**Tiếng Việt**](./2CA/include/README.vi.md)   |   [**中国人**](.README.md)    |    [**한국인**](.README.md)   |    [**日本語**](.README.md)  
 
