@@ -104,7 +104,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{a27ffc6c-5ec3-43d3-be46-9925b722b3c8}</ProjectGuid>
-    <RootNamespace>sunoneaimbotcpp</RootNamespace>
+    <RootNamespace>2CA</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>2CA</ProjectName>
   </PropertyGroup>
