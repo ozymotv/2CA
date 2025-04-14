@@ -37,6 +37,11 @@ private:
     std::atomic<bool> target_detected{ false };
     std::atomic<bool> mouse_pressed{ false };
 
+    // Target locking parameters
+    AimbotTarget* locked_target;
+    float target_switch_threshold;
+    int lock_duration_ms;
+
     //SerialConnection* serial;
     //KmboxConnection* kmbox;
     GhubMouse* gHub;
@@ -47,6 +52,7 @@ private:
     std::pair<double, double> calc_movement(double target_x, double target_y);
     double calculate_speed_multiplier(double distance);
     void sendMovementToDriver(int move_x, int move_y);
+    void clearLockedTarget();
 
 public:
     std::mutex input_method_mutex;
@@ -67,9 +73,19 @@ public:
         //KmboxConnection* kmboxConnection = nullptr
     );
 
+
     void updateConfig(int resolution, double dpi, double sensitivity, int fovX, int fovY,
         double minSpeedMultiplier, double maxSpeedMultiplier,
         double predictionInterval, bool auto_shoot, float bScope_multiplier);
+
+    // New method to update target locking parameters
+    void setTargetLockingParams(float switchThreshold, int lockDurationMs);
+
+    // Process targets using either locking or original method based on the define
+    AimbotTarget* processTargets(
+        const std::vector<cv::Rect>& boxes,
+        const std::vector<int>& classes,
+        bool disableHeadshot);
 
     void moveMousePivot(double pivotX, double pivotY);
     std::pair<double, double> predict_target_position(double target_x, double target_y);
