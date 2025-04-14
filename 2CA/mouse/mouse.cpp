@@ -1,4 +1,4 @@
-﻿#define WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
 #define _WINSOCKAPI_
 #include <winsock2.h>
 #include <Windows.h>
@@ -18,6 +18,11 @@
 #include "kmboxNet.h"
 #include <2CA.h>
 //#include <sunone_aimbot_cpp.cpp>
+
+#include "keyboard_listener.h"
+#include "keycodes.h"
+
+extern std::atomic<bool> aiming;
 
 MouseThread::MouseThread(
     int resolution,
@@ -190,6 +195,11 @@ void MouseThread::moveMouse(const AimbotTarget& target)
     int move_x = static_cast<int>(movement.first);
     int move_y = static_cast<int>(movement.second);
 
+    if (isAnyKeyPressed({ "LeftMouseButton" }) && isAnyKeyPressed({ "RightMouseButton" }))
+    {
+        move_y = 0; // Ignore vertical movement
+    }
+
     kmNet_mouse_move(move_x, move_y);
 }
 
@@ -237,8 +247,14 @@ void MouseThread::moveMousePivot(double pivotX, double pivotY)
 
     auto movement = calc_movement(predictedX, predictedY);
 
-    sendMovementToDriver(static_cast<int>(movement.first),
-        static_cast<int>(movement.second));
+    int move_x = static_cast<int>(movement.first);
+    int move_y = static_cast<int>(movement.second);
+    if (isAnyKeyPressed({ "LeftMouseButton" }) && isAnyKeyPressed({ "RightMouseButton" }))
+    {
+        move_y = 0; // Ignore vertical movement
+    }
+
+    sendMovementToDriver(move_x, move_y);
 }
 
 void MouseThread::pressMouse(const AimbotTarget& target)
@@ -313,7 +329,7 @@ std::vector<std::pair<double, double>> MouseThread::predictFuturePositions(doubl
 
     vx -= camFlowX;
     vy -= camFlowY;
-    
+
     for (int i = 1; i <= frames; i++)
     {
         double t = frame_time * i;
@@ -326,6 +342,7 @@ std::vector<std::pair<double, double>> MouseThread::predictFuturePositions(doubl
 
     return result;
 }
+
 
 void MouseThread::storeFuturePositions(const std::vector<std::pair<double, double>>& positions)
 {
@@ -344,4 +361,3 @@ std::vector<std::pair<double, double>> MouseThread::getFuturePositions()
     std::lock_guard<std::mutex> lock(futurePositionsMutex);
     return futurePositions;
 }
-
