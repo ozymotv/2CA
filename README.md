@@ -22,7 +22,7 @@ This fork of SunOne Aimbot focuses on implementing the Kmbox Net mouse method fo
    - Get the latest release from [here](https://mega.nz/folder/BSsFXKiC#tnvF41b7kN-Y8IqWlKTfLQ) (Updated 23.04.2025 still undetected)
 
 3. **Setup**
-   - Setup your KMBOX net if you haven't dont that already [Watch video]([https://mega.nz/folder/BSsFXKiC#tnvF41b7kN-Y8IqWlKTfLQ](https://www.youtube.com/watch?v=LCrx8FC49d4)) (Stop at 01:30 is enough. Update the firmware is optional)
+   - Setup your KMBOX net if you haven't dont that already [Watch video](https://www.youtube.com/watch?v=LCrx8FC49d4) (Stop at 01:30 is enough. Update the firmware is optional)
    - Extract the Aimbot contents
    - Edit your Kmbox net ip, port, uuid in the config.ini
    - Run `ai.exe` and wait for the standard `.onnx` model export (approximately 5 minutes)
