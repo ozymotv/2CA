@@ -19,7 +19,7 @@ This fork of SunOne Aimbot focuses on implementing the Kmbox Net mouse method fo
    - Install [CUDA 12.8](https://developer.nvidia.com/cuda-12-8-0-download-archive)
 
 2. **Download Latest Release**
-   - Get the latest release from [here](https://mega.nz/folder/BSsFXKiC#tnvF41b7kN-Y8IqWlKTfLQ) (Updated 10.05.2025 still undetected)
+   - Get the latest release from [here](https://mega.nz/folder/BSsFXKiC#tnvF41b7kN-Y8IqWlKTfLQ) 
 
 3. **Setup**
    - Setup your KMBOX net if you haven't done that already [Watch video](https://www.youtube.com/watch?v=LCrx8FC49d4) (Stop at 01:30 is enough. Update the firmware is optional)
