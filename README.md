@@ -9,6 +9,7 @@ A hardware aimbot for games using kmbox net. support valorant. cs2. overwatch 2.
 </div>
 
 This fork of SunOne Aimbot focuses on implementing the Kmbox Net mouse method for improved performance and precision.
+It also support Logitech and Razor mouse as long as native windows mouse movement (win32api)
 
 > **⚠️ WARNING:** TensorRT version 10 does not support the Pascal architecture (10 series graphics cards). Use only with GPUs of at least the 20 series.
 
